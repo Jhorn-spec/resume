@@ -1,0 +1,58 @@
+* {
+    margin:0;
+    padding:0;
+  }
+  .top {
+    background-color:black;
+    color:white;
+    height:6.5em;
+    width:100%;
+  }
+  .top h1 {
+    float:left;
+    margin:0.5em 5em 1.5em 1.5em;
+  }
+  .top p {
+    border-left-style:solid;
+    border-width:0.5px;
+    float:right;
+    padding:0 1.5em 0.7em;
+    text-align:left;
+    width:12em;
+  }
+  .grey {
+    background-color:grey;
+    margin-top:0;
+    padding-top:0.5em;
+    text-align:center;
+  }
+  .grey p {
+    font-style:italic;
+    padding:1em;
+  }
+  .container {
+    margin:0.5em 1.5em;
+  }
+  .box {
+    display:flex;
+    padding-bottom:1em;
+  }
+  .left {
+    float:left;
+    text-align:left;
+    width:40%;
+  }
+  .right {
+    float:right;
+    margin-left:2em;
+    text-align:left;
+    width:60%;
+  }
+  .spec {
+    color:grey;
+    font-style:italic;
+    margin-bottom:1em;
+  }
+  .aaa {
+    color:grey;
+  }
