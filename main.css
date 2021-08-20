@@ -56,3 +56,33 @@
   .aaa {
     color:grey;
   }
+.buttom{
+  background-color: rgb(119, 108, 108);
+  margin-top: 10em;
+  width: 100%;
+  padding: 1ems;
+  text-align: center;
+
+}
+img{
+  padding: 10px;
+  width: 15em;
+  height: 3.5em;
+  border-radius: 10em;
+  display: inline;
+}
+a{
+  color: rgb(241, 237, 237);
+  display: inline;
+  text-decoration: none;
+  
+}
+
+a:hover {
+  background-color: rgb(40, 21, 126);
+  width: 1em;
+}
+#links{
+  background-color: rgb(119, 108, 108);
+  text-align: center;
+}
