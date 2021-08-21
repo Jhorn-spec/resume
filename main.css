@@ -6,11 +6,11 @@
     background-color:black;
     color:white;
     height:6.5em;
-    width:100%;
   }
   .top h1 {
     float:left;
     margin:0.5em 5em 1.5em 1.5em;
+    overflow-x: hidden;
   }
   .top p {
     border-left-style:solid;
@@ -21,7 +21,7 @@
     width:12em;
   }
   .grey {
-    background-color:grey;
+    background-color: #fff
     margin-top:0;
     padding-top:0.5em;
     text-align:center;
@@ -31,7 +31,7 @@
     padding:1em;
   }
   .container {
-    margin:0.5em 1.5em;
+    margin:0.5em 5em;
   }
   .box {
     display:flex;
@@ -85,4 +85,16 @@ a:hover {
 #links{
   background-color: rgb(119, 108, 108);
   text-align: center;
+}
+.cent{
+  text-align: center;
+  margin: 0.5em;
+}
+.nright{
+   text-align: center;
+}
+@media screen and (max-height: 450px){
+  .top{
+
+  }
 }
